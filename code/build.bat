@@ -9,6 +9,6 @@
 mkdir ..\build
 pushd ..\build
 pwd
-cl -Zi ..\code\win32_handmade.cpp user32.lib
+cl -Zi ..\code\win32_handmade.cpp user32.lib gdi32.lib
 :: Come back to the above directory
 popd
